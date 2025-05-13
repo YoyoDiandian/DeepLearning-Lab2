@@ -16,12 +16,12 @@ a super easy clip model with mnist dataset for study
 
 **resnet residual**
 
-![](resnet-block.svg)
+![](figure/resnet-block.svg)
 
 ----
 
 **clip model**
-![](clip-model.png)
+![](figure/clip-model.png)
 
 ## 训练
 
@@ -49,8 +49,8 @@ CLIP分类: 5
 
 **要预测的图片**
 
-![](image.png)
+![](figure/image.png)
 
 **寻找的相似图片**
 
-![](simliar_image.png)
+![](figure/simliar_image.png)
