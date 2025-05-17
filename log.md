@@ -7,5 +7,9 @@
 - 补全基本的todo任务，放在`DeepLearning-Lab2.ipynb`中
 - 各个数字的输出都放在了`output/`目录下
 
-## 5.12
+## 5.12 8a0c310fbbaaeebb3cf237c45ca7eb285887c0f8
 - 增加了遍历数据集的测试
+
+## 5.17
+- 将`train.ipynb`和`inference.ipynb`拆出来。
+- 增加`README.md`中对文件结构的描述

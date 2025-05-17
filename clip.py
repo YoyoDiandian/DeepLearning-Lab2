@@ -11,7 +11,7 @@ class CLIP(nn.Module):
         self.text_enc = TextEncoder()
 
     def forward(self, img_x, text_x):
-        ### TODO: TASK 0: 完成CLIP模型的Forward代码
+        ### TODO: TASK 1: 完成CLIP模型的Forward代码
         img_features = self.img_enc(img_x)  # [batch_size, embed_dim]
         text_features = self.text_enc(text_x)  # [batch_size, embed_dim]
         
