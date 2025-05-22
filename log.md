@@ -10,6 +10,9 @@
 ## 5.12 8a0c310fbbaaeebb3cf237c45ca7eb285887c0f8
 - 增加了遍历数据集的测试
 
-## 5.17
+## 5.17 84bb71a070dd829f4991963a5850b631c9a2c53f
 - 将`train.ipynb`和`inference.ipynb`拆出来。
 - 增加`README.md`中对文件结构的描述
+
+## 5.23
+- 修复了loss很高的问题，是由`clip.py`中的归一化函数引起的

@@ -15,15 +15,8 @@ class CLIP(nn.Module):
         img_features = self.img_enc(img_x)  # [batch_size, embed_dim]
         text_features = self.text_enc(text_x)  # [batch_size, embed_dim]
         
-        # 计算余弦相似度矩阵
-        # L2标准化
-        img_features = img_features / img_features.norm(dim=1, keepdim=True)
-        text_features = text_features / text_features.norm(dim=1, keepdim=True)
-        
-        # 计算余弦相似度矩阵 (N×N)
-        logits = torch.mm(img_features, text_features.t())
-        
-        return logits
+        # return logits
+        return img_features@text_features.T
     
 if __name__=='__main__':
     clip=CLIP()
